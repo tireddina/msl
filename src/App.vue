@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ElementTable/>
+     <Timer />
+     <MSLtable/>
+    
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ElementTable from './components/element.vue'
+import Timer from './components/timer.vue'
+import MSLtable from './components/msltable.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
+    ElementTable,
+    Timer,
+    MSLtable,
+    
   }
 }
 </script>
